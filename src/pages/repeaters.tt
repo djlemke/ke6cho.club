@@ -1,0 +1,98 @@
+[% WRAPPER template.tt
+	title = "Repeaters"
+	tagline = "Our primary system is the linked repeater and Echolink network. We are also building Fusion and packet systems."
+%]
+
+<section>
+    <!--<p>Our primary system is the linked analog and Echolink repeater network. We are also expirementing with other modes, such as Fusion, DMR, and packet.</p>-->
+    <figure>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Linked</th>
+                <th scope="col">Frequency</th>
+                <th scope="col">Offset</th>
+                <th scope="col">PL Tone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">KE6CHO/1</th>
+                <td>South Fork Mt.</td>
+                <td>Yes</td>
+                <td>145.110</td>
+                <td>-</td>
+                <td>97.4</td>
+            </tr>
+            <tr>
+                <th scope="row">KE6CHO/2</th>
+                <td>Hatchet Mt.</td>
+                <td>Yes</td>
+                <td>444.650</td>
+                <td>+</td>
+                <td>94.8</td>
+            </tr>
+            <tr>
+                <th scope="row">KE6CHO/3</th>
+                <td>Haney Mt.</td>
+                <td>Yes</td>
+                <td>147.240</td>
+                <td>+</td>
+                <td>94.8</td>
+            </tr>
+            <tr>
+                <th scope="row">KE6CHO/4</th>
+                <td>Oregon Mt.</td>
+                <td>Yes</td>
+                <td>444.250</td>
+                <td>+</td>
+                <td>94.8</td>
+            </tr>
+            <tr>
+                <th scope="row">KE6CHO/5</th>
+                <td>Sugarloaf</td>
+                <td>Yes</td>
+                <td>440.325</td>
+                <td>+</td>
+                <td>94.8</td>
+            </tr>
+            <tr>
+                <th scope="row">KE6CHO-R</th>
+                <td>Echolink</td>
+                <td>Yes</td>
+                <td>Node #390402</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">KD6MTU Fusion</th>
+                <td>South Fork Mt.</td>
+                <td>No</td>
+                <td>444.050</td>
+                <td>+</td>
+                <td>YSF 68901 Reflector</td>
+            </tr>
+            <tr>
+                <th scope="row">KD6MTU Packet BBS 1200</th>
+                <td>South Fork Mt.</td>
+                <td>No</td>
+                <td>145.650</td>
+                <td></td>
+                <td>1200 baud</td>
+            </tr>
+            <tr>
+                <th scope="row">KD6MTU Packet BBS 9600</th>
+                <td>South Fork Mt.</td>
+                <td>No</td>
+                <td>145.750</td>
+                <td></td>
+                <td>9600 baud</td>
+            </tr>
+        </tbody>
+    </table>
+    </figure>
+</section>
+
+[% END %]

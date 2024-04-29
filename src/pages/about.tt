@@ -1,0 +1,11 @@
+[% WRAPPER template.tt
+	title = "About"
+	tagline = "We are a non-profit Ham radio organization providing linked repeaters for Shasta and the surrounding counties."
+%]
+
+<section>
+    <h3>Mission</h3>
+    <p>The Mission of the Western Amateur Radio Repeater & Echolink Association (WARREA), is to recruit, train and help committed Ham Radio operators carry on the century old tradition of amateur radio. WARREA is a Non-Profit corporation dedicated to community service and providing education to the general public about the history, operation, functions and benefits of the Amateur Radio Service. By using our considerable network of technical resources and expertise to provide equipment, skilled operators and emergency services when called upon by local authorities in time of need to assist and protect the citizens in the communities in which we live and serve. WARREA is and has been for over 20 years the leader in radio repeater operation in Northern California. Standing on the shoulders of the Amateur Radio operators that came before us, WARREA will continue to lead the way in community and public service.</p>
+</section>
+
+[% END %]

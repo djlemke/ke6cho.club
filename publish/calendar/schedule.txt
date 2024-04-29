@@ -1,0 +1,44 @@
+June
+2	Guy
+9	Bob
+16	Dave
+23	Keith
+30	Daniel
+
+July
+7	Guy
+14	Bob
+21	Dave
+28	Keith
+
+August
+4	Daniel
+11	Guy
+18	Bob
+25	Dave
+
+September
+1	Keith
+8	Daniel
+15	Guy
+22	Bob
+29	Dave
+
+October
+6	Keith
+13	Daniel
+20	Guy
+27	Bob
+
+November
+3	Dave
+10	Keith
+17	Daniel
+24	Guy
+
+December
+1	Bob
+8	Dave
+15	Keith
+22	Daniel
+29	Guy

@@ -1,0 +1,22 @@
+.cal-month {
+	border: solid 1px black;
+	border-collapse: inherit;
+}
+
+.cal-month * {
+	color: black;
+}
+
+/*.cal-month th, .cal-month tr, .cal-month td {
+	border: solid 1px black;
+}*/
+
+.cal-month tbody tr:first-child th {
+	background-color: #6495ed;
+	font-weight: 900;
+}
+
+.cal-dow {
+	font-weight: 900;
+}
+

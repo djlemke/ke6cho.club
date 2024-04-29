@@ -1,0 +1,55 @@
+[% WRAPPER template.tt
+	title = "Contact"
+	tagline = "We are on the air and online."
+%]
+
+<section>
+    <p>The simplest way to reach us is to call us on the linked repeater system. However, we can also be reached on our <a href="https://www.facebook.com/groups/www.ke6cho.club/" target="_blank">Facebook group</a>.</p>
+</section>
+
+<section>
+    <h3>Who to Contact</h3>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Call</th>
+                <th scope="col">Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Guy</th>
+                <td>KD6MTU</td>
+                <td>President</td>
+            </tr>
+            <tr>
+                <th scope="row">Don</th>
+                <td>NC6A</td>
+                <td>Vice President</td>
+            </tr>
+            <tr>
+                <th scope="row">Keith</td>
+                <td>W6POC</td>
+                <td>Treasurer</td>
+            </tr>
+            <tr>
+                <th scope="row">Bob</td>
+                <td>KK6PDO</td>
+                <td>Secretary</td>
+            </tr>
+            <tr>
+                <th scope="row">Sid</td>
+                <td>W6CSS</td>
+                <td>Sergeant at Arms</td>
+            </tr>
+            <tr>
+                <th scope="row">Daniel</td>
+                <td>KG6TYQ</td>
+                <td>Director of IT/Media</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+[% END %]

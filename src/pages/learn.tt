@@ -1,0 +1,39 @@
+[% WRAPPER template.tt
+	title = "Learn"
+	tagline = "There's always something new to learn in the world of amateur radio."
+%]
+
+<section>
+    <h3>Get Licensed</h3>
+    <p>Amateur radio is the original social networking platform. It is available even when the Internet or phone service isn't. There are many aspects to ham radio, including emergency communications, electronics, computers, contesting, or just socializing with other people across town or the world. Getting started is easy, and it begins with getting your Technician class license.</p>
+</section>
+
+<section>
+        <article>
+            <h4>Redding ARRL VE Team</h4>
+            <p>The Redding ARRL VE Team provides amateur radio license testing. When you are ready to take your test, visit the VE team's website and find the soonest testing date. Don't forget to pre-register!</p>
+            <p><a href="https://reddingve.com/" target="_blank" role="button">Take your test</a></p>
+        </article>
+        <article>
+            <h4>Bentronics</h4>
+            <p>Bill at Bentronics is your local electronics and radio store. He has everything you need to get started including books on getting your license and electronics, radios, antennas, and pretty much anything else you need to get on the air.</p>
+            <p><a href="https://www.bentronics.com/" target="_blank" role="button">Shop online</a></p>
+        </article>
+        <article>
+            <h4>ARRL</h4>
+            <p>The ARRL, American Radio Relay League, is the national association for hams in America. They online question pools, books, and classes that can help you learn more about ham radio.</p>
+            <p><a href="http://www.arrl.org/getting-your-technician-license" target="_blank" role="button">Visit their website</a></p>
+        </article>
+        <article>
+            <h4>YouTube</h4>
+            <p>Dave Casler, KE0OG, has excellent YouTube videos covering all of the information you will need to get your license. A great pairing to exam prep.</p>
+            <p><a href="https://www.youtube.com/watch?v=0mP-Qe2SYwI" target="_blank" role="button">Watch on YouTube</a></p>
+        </article>
+        <article>
+            <h4>Apps & Software</h4>
+            <p>DX Zone has a directory of ham radio apps and software, and it is a good starting point for finding something that will work on your phone or computer.</p>
+            <p><a href="https://www.dxzone.com/catalog/Software/" target="_blank" role="button">View the list</a></p>
+        </article>
+</section>
+
+[% END %]

@@ -1,0 +1,23 @@
+[% WRAPPER template.tt
+	title = "Donate"
+	tagline = "Help us keep the repeater system running."
+%]
+
+<section>
+    <p>If you want to help support the club, you can donate via Paypal. Donations help us pay for the linked repeater sites and utilities.</p>
+    <p>We greatly appreciate the support we receive. Thank you very much for donating!</p>
+
+    <div style="width: 100%;margin: 0 auto;text-align: center;">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="business" value="ke6choclub@gmail.com">
+            <input type="hidden" name="cmd" value="_donations">
+            <input type="hidden" name="item_name" value="Western Radio Repeater& Echolink Assco.Inc">
+            <input type="hidden" name="item_number" value="General Fund (can be used as the Board directs)">
+            <input type="hidden" name="currency_code" value="USD">
+            <input style="margin: 0 auto;width:auto;border:none;" type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+            <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+        </form>
+    </div>
+</section>
+
+[% END %]

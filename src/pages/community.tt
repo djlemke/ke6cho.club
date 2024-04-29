@@ -1,0 +1,71 @@
+[% WRAPPER template.tt
+	title = "Community"
+	tagline = "Anyone one is welcome to join us, donations not required."
+%]
+
+<section>
+    <div class="grid">
+        <article class="card">
+            <h4 class="card-stay">Breakfast Meeting</h4>
+            <p class="card-grow">We meet at <a href="https://www.openstreetmap.org/way/527428288" target="_blank">Country Waffles, 2300 Athens Ave, Redding</a>, on the third Sunday of every month at 9 AM. Everyone is welcome to join us!</p>
+            <a href="https://www.openstreetmap.org/way/527428288" target="_blank" role="button" class="card-stay">Get Directions</a>
+        </article>
+        <article class="card">
+            <h4 class="card-stay">Facebook</h4>
+            <p class="card-grow">We have a group on Facebook. You can reach out to us there when we are not on the air.</p>
+            <a href="https://www.facebook.com/groups/www.ke6cho.club/" target="_blank" role="button" class="card-bottom">Join the group</a>
+        </article>
+        <article class="card">
+            <h4 class="card-stay">Donate</h4>
+            <p class="card-grow">If you want to help support the club, you can donate via Paypal here. Donations help us pay for the linked repeater sites and utilities.</p>
+            <a href="/donate.rvt" role="button" class="card-bottom">Support the club</a>
+        </article>
+    </div>
+</section>
+
+<section>
+    <h3>Meet Our Officers</h3>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Call Sign</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Guy Lemke</th>
+                <td>President</td>
+                <td>KD6MTU</td>
+            </tr>
+            <tr>
+                <th scope="row">Don Borden</th>
+                <td>Vice President</th>
+                <td>NC6A</td>
+            </tr>
+            <tr>
+                <th scope="row">Keith Farley</th>
+                <td>Treasurer</td>
+                <td>W6POC</td>
+            </tr>
+            <tr>
+                <th scope="row">Bob Frampton</th>
+                <td>Secretary</td>
+                <td>KK6PDO</td>
+            </tr>
+            <tr>
+                <th scope="row">Sid Styers</th>
+                <td>Sergeant at Arms</td>
+                <td>W6CSS</td>
+            </tr>
+            <tr>
+                <th scope="row">Daniel Lemke</th>
+                <td>Directory of IT/Media</td>
+                <td>KG6TYQ</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+[% END %]

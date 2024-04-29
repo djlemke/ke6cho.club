@@ -1,0 +1,117 @@
+[% WRAPPER template.tt
+	title = "Home"
+	tagline = "We are the Western Amateur Radio Repeater and Echolink Association, providing a system of linked repeaters across the North State of California."
+	cta_text = "Get Involved"
+	cta_href = "/community.rvt"
+%]
+
+<section>
+    <h3>Silent Key - Jim McKeown WA6IO</h3>
+    <p>Unfortunately, long time member Jim McKweon recently passed away. Jim was a Navy and police veteran with a lifelong passion for radio. He was always helpful and active in our community. He will be missed dearly by his friends in WARREA.</p>
+</section>
+
+<section>
+    <h3>About</h3>
+    <p>The WARREA breakfast meeting is held at 9:00 AM on the third Sunday of every month at <a href="https://www.openstreetmap.org/way/527428288" target="_blank">Country Waffles, 2300 Athens Ave, Redding</a>. Visitors and non-hams are always welcome.</p>
+    <p>Association Call Sign: KE6CHO</p>
+    <p>Echolink Node: KE6CHO-R #390402</p>
+    <p>Our non-profit organization is a group of amateur radio operators who promote all aspects of amateur radio technology. We are a family oriented organization. Both husbands and wives can be heard on our repeater as well as at the membership meetings. It is not limited to the parents, as we also enjoy having our children involved with the club. Every aspect of amateur radio can be found practiced by some member of WARREA, such as:</p>
+    <ul>
+        <li>FM repeaters</li>
+        <li>SSB</li>
+        <li>CW</li>
+        <li>packet</li>
+        <li>digital modes</li>
+        <li>satellite</li>
+        <li>weak signal</li>
+        <li>contesting</li>
+    </ul>
+    <p>Our 145.110 repeater site is hosted thanks to <a href="http://netsusa.net" target="_blank">NetsUSA Communications</a>.</p>
+</section>
+
+<section>
+    <h3>Repeaters</h3>
+    <p>All of the repeaters listed are linked together by RF and Echolink. You can see other repeaters on the <a href="/repeaters.rvt">repeaters page</a>.</p>
+    <figure>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Call Sign</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Frequency</th>
+                    <th scope="col">Offset</th>
+                    <th scope="col">PL Tone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">KE6CHO/1</th>
+                    <td>South Fork Mt.</td>
+                    <td>145.110</td>
+                    <td>-</td>
+                    <td>97.4</td>
+                </tr>
+                <tr>
+                    <th scope="row">KE6CHO/2</th>
+                    <td>Hatchet Mt.</td>
+                    <td>444.650</td>
+                    <td>+</td>
+                    <td>94.8</td>
+                </tr>
+                <tr>
+                    <th scope="row">KE6CHO/3</th>
+                    <td>Haney Mt.</td>
+                    <td>147.240</td>
+                    <td>+</td>
+                    <td>94.8</td>
+                </tr>
+                <tr>
+                    <th scope="row">KE6CHO/4</th>
+                    <td>Oregon Mt.</td>
+                    <td>444.250</td>
+                    <td>+</td>
+                    <td>94.8</td>
+                </tr>
+                <tr>
+                    <th scope="row">KE6CHO/5</th>
+                    <td>Sugarloaf</td>
+                    <td>440.325</td>
+                    <td>+</td>
+                    <td>94.8</td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+</section>
+
+<section>
+    <h3>Nets</h3>
+    <figure>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Net</th>
+                    <th scope="col">Where</th>
+                    <th scope="col">When</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">WARREA Net</th>
+                    <td>KE6CHO Linked Repeaters</td>
+                    <td>7:00 PM Thursday (0300 Friday UTC)</td>
+                    <td>Our weekly informal round table FM net is open to all hams! Just set your radio to one of our KE6CHO repeaters or sign on Echolink and throw out your call during check-ins.</td>
+                </tr>
+                <tr>
+                    <th scope="row">WARREA Tech Net</th>
+                    <td>144.230 MHz USB</td>
+                    <td>8:00 PM Thursday</td>
+                    <td>An informal net after the net for technical discussion. Anyone is welcome to join in on this net too!</td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+</section>
+
+[% END %]
